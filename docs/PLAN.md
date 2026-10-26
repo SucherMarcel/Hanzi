@@ -4,7 +4,7 @@
 
 | Topic | Decision |
 |---|---|
-| Word list | New HSK 3.0 syllabus (Nov 2025): level 1 = 300 words (includes all 150 old HSK 1 words). HSK 2 later as a second file. |
+| Word list | New HSK 3.0 syllabus (Nov 2025): level 1 = 294 entries (~300 words counting variants), plus the 7 old HSK 1 words it dropped. HSK 2 (~200 more) later as a second file. |
 | Hosting | GitHub Pages from this repo (public), deployed automatically on every push. |
 | Sync (Phase 6) | Supabase, login with email + 6-digit code. |
 | Quiz answers | Count in ✓/✗ at half weight; only flashcards change level and due date. |
