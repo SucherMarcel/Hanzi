@@ -34,7 +34,9 @@ Live app (after setup below): **https://suchermarcel.github.io/Hanzi/**
 Open it once while online; after that it works offline. Updates install themselves the next
 time you open the app online.
 
-**Audio** uses your device's Mandarin voice. If you hear nothing on Windows, add the free
+**Audio** uses your device's Mandarin voice. If you hear nothing on **Android**: Settings →
+search "Text-to-speech" → set the engine to *Speech Services by Google* → gear icon →
+*Install voice data* → *Chinese (China)* (download it so it works offline). On **Windows**, add the free
 voice: Settings → Time & language → Language & region → Add a language → *Chinese
 (Simplified, China)* with *Text-to-speech* ticked.
 
