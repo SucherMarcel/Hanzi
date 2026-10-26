@@ -2,7 +2,9 @@
 
 let voice: SpeechSynthesisVoice | null = null;
 
-const isMandarin = (v: SpeechSynthesisVoice) => /^zh[-_](CN|Hans)/i.test(v.lang) || /普通话|Mandarin/i.test(v.name);
+// Android voices may use "cmn" (Mandarin) instead of "zh", e.g. "cmn-Hans-CN".
+const isMandarin = (v: SpeechSynthesisVoice) =>
+  /^(zh|cmn)[-_](Hans|CN)/i.test(v.lang) || /普通话|Mandarin/i.test(v.name);
 
 function pickVoice(): SpeechSynthesisVoice | null {
   const voices = window.speechSynthesis?.getVoices() ?? [];
